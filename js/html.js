@@ -20,7 +20,7 @@ const bodyHTML =   `
   <a class="navbar-brand text-white fw-bold" href="index.html"><i class="fa fa-link col_red me-1"></i></a>
   
   <div>
-    <img id="searchIcon" src="https://i.ibb.co/w0SGXck/search.png" alt="">
+    <img id="searchIcon" src="./img/search.png" alt="">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
