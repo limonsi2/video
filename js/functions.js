@@ -924,9 +924,4 @@ function topRatedRender() {
 
   }
 
-async function movieData() {
-  const file = "https://raw.githubusercontent.com/kendrick2k10/movieData/main/movieData"
-  let request = await fetch(file)
-  let response = await request.text()
-  return JSON.parse(response)
-}
+
