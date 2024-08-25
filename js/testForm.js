@@ -9,22 +9,17 @@ const render = {}
 
 
 //Where Everything Starts
-let movieLists
-movieData().then( data => {
 
-  movieLists = data
+document.body.innerHTML += bodyHTML
 
-  document.body.innerHTML += bodyHTML
+sortLatestRender()
+topRatedRender()
 
-  sortLatestRender()
-  topRatedRender()
+headerFunctions()
 
-  headerFunctions()
-  
-  eventListener()
+eventListener()
 
 
-})
 
 
 
